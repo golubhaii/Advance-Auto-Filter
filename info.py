@@ -47,8 +47,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "cluster11")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'telegram_files')
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'paisakamalo.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'f3321e1d3c26139b3be7e759018d6e875dcba1b5')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moneykamalo.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '13c5abaaf7d649bcb00958d722e3561a2318874a')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
